@@ -1,0 +1,12 @@
+{
+    "id": "6aab3f4e-cc71-474d-8d28-abef8b057808",
+    "name": "Confluence (Cloud)",
+    "ari": "ari:cloud:commerce::product/6aab3f4e-cc71-474d-8d28-abef8b057808",
+    "updatedAt": 1705048070714,
+    "supportedBillingSystems": [
+        "HAMS",
+        "CCP"
+    ],
+    "version": 6,
+    "status": "ACTIVE"
+}

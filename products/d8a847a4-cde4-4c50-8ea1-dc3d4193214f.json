@@ -1,0 +1,12 @@
+{
+    "id": "d8a847a4-cde4-4c50-8ea1-dc3d4193214f",
+    "name": "Jira",
+    "ari": "ari:cloud:commerce::product/d8a847a4-cde4-4c50-8ea1-dc3d4193214f",
+    "updatedAt": 1714619884350,
+    "supportedBillingSystems": [
+        "CCP",
+        "HAMS"
+    ],
+    "version": 7,
+    "status": "ACTIVE"
+}

@@ -1,0 +1,355 @@
+{
+  "id": "<string>",
+  "version": 2154,
+  "number": "<string>",
+  "invoiceGroup": "<string>",
+  "memo": "<string>",
+  "status": "DRAFT",
+  "createdAt": 31,
+  "finalizedAt": 31,
+  "dueAt": 31,
+  "paidAt": 31,
+  "uncollectibleAt": 31,
+  "billTo": {
+    "name": "<string>",
+    "taxId": "<string>",
+    "taxIds": [
+      {
+        "id": "<string>",
+        "label": "<string>",
+        "taxIdLabel": "<string>",
+        "taxIdDescription": "<string>",
+        "metadata": {}
+      }
+    ],
+    "postalAddress": {
+      "line1": "<string>",
+      "line2": "<string>",
+      "city": "<string>",
+      "country": "<string>",
+      "state": "<string>",
+      "phone": "<string>",
+      "postcode": "<string>"
+    },
+    "priceEligibility": {}
+  },
+  "shipTo": {
+    "id": "<string>",
+    "version": 2154,
+    "name": "<string>",
+    "postalAddress": {
+      "line1": "<string>",
+      "line2": "<string>",
+      "city": "<string>",
+      "country": "<string>",
+      "state": "<string>",
+      "phone": "<string>",
+      "postcode": "<string>"
+    },
+    "priceEligibility": {},
+    "taxId": "<string>",
+    "taxIds": [
+      {
+        "id": "<string>",
+        "label": "<string>",
+        "taxIdLabel": "<string>",
+        "taxIdDescription": "<string>",
+        "metadata": {}
+      }
+    ],
+    "createdAt": 31
+  },
+  "paymentMethod": "<string>",
+  "paymentMethodObj": {},
+  "currency": "USD",
+  "subtotal": 2154,
+  "total": 2154,
+  "tax": 2154,
+  "taxIdLabel": "<string>",
+  "headerTaxId": "<string>",
+  "headerTaxIds": [
+    {
+      "headerTaxID": "<string>",
+      "taxIdLabel": "<string>"
+    }
+  ],
+  "additionalNotes": "<string>",
+  "items": [
+    {
+      "id": "6aab3f4e-cc71-474d-8d28-abef8b057808",
+      "currency": "USD",
+      "description": "Description for Confluence (Cloud) ",
+      "period": {
+        "startAt": 1717586741000,
+        "endAt": 1719141941000
+      },
+      "subtotal": 1350,
+      "total": 1282.5,
+      "quantity": 1,
+      "unitAmount": 1,
+      "adjustments": [
+        {
+          "reason": "PARTNER_DISCOUNT",
+          "reasonCode": "ab1234",
+          "promotionId": "<string>",
+          "type": "EXPERT",
+          "amount": 67.5,
+          "percent": 5.00,
+          "promoCode": "<string>"
+        }
+      ],
+      "margins": [],
+      "taxItems": [
+        {
+          "tax": 2154,
+          "taxPercent": 2154,
+          "taxAmountLabel": "<string>"
+        }
+      ],
+      "invoiceRequest": "<string>",
+      "invoiceRequestItem": 2154,
+      "invoiceRequestItemId": "<string>",
+      "subscriptionObj": {
+        "id": "<string>",
+        "versionInfo": "<string>",
+        "stripeSubscriptionId": "<string>",
+        "entitlementId": "<string>",
+        "version": 2154,
+        "stripeScheduleId": "<string>",
+        "orderItemId": "<string>",
+        "orderId": "<string>",
+        "transactionAccountId": "<string>",
+        "invoiceGroupId": "<string>",
+        "offeringId": "<string>",
+        "lastPaidOfferingId": "<string>",
+        "pricingPlanId": "<string>",
+        "status": "PROCESSING",
+        "promotionIds": [
+          "<string>"
+        ],
+        "chargeQuantities": {},
+        "currentListPrice": 2154,
+        "previousListPrice": 2154,
+        "metadata": {},
+        "schedule": {},
+        "trialLengthDays": 2154,
+        "isEditable": true,
+        "createdTimestamp": 2154,
+        "startTimestamp": 2154,
+        "endTimestamp": 2154,
+        "billingAnchorTimestamp": 2154,
+        "currentBillingStartTimestamp": 2154,
+        "currentBillingEndTimestamp": 2154,
+        "nextBillingTimestamp": 2154,
+        "nextBillingAnchorTimestamp": 2154,
+        "cancelAtTheEndOfPeriod": true,
+        "invoiceImmediately": true,
+        "billingClockId": "<string>",
+        "promotionInstances": [
+          {}
+        ],
+        "chargeQuantityList": [
+          {
+            "chargeElement": "<string>",
+            "quantity": 2154
+          }
+        ],
+        "trial": {},
+        "invoiceSettings": {},
+        "pauseBilling": {}
+      },
+      "planObj": {
+        "id": "<string>",
+        "type": "<string>",
+        "sku": "<string>",
+        "hostingType": "<string>",
+        "cycle": {}
+      },
+      "entitlementId": "<string>",
+      "entitlementNumber": "<string>",
+      "relationship": {
+        "relatesToEntitlements": [
+          {}
+        ],
+        "relatesFromEntitlements": [
+          {}
+        ]
+      },
+      "orderItemId": "<string>",
+      "offeringKey": "<string>",
+      "tax": 2154,
+      "taxPercent": 2154,
+      "originalInvoiceReferral": {
+        "invoice": "<string>",
+        "invoiceNumber": "<string>",
+        "invoiceCreatedAt": "<string>",
+        "invoiceItems": [
+          "<string>"
+        ]
+      },
+      "exchangeRate": 2154,
+      "exchangeRateDate": "<string>",
+      "proration": true,
+      "metadata": {},
+      "orderId": "<string>"
+    },
+    {
+      "id": "d8a847a4-cde4-4c50-8ea1-dc3d4193214f",
+      "currency": "USD",
+      "description": "Description for Jira (Cloud) ",
+      "period": {
+        "startAt": 1717586741000,
+        "endAt": 1782213941000
+      },
+      "subtotal": 850,
+      "total": 765,
+      "quantity": 1,
+      "unitAmount": 1,
+      "adjustments": [
+        {
+          "reason": "PARTNER_DISCOUNT",
+          "reasonCode": "cd112a",
+          "promotionId": "<string>",
+          "type": "EXPERT",
+          "amount": 85,
+          "percent": 10.00,
+          "promoCode": "<string>"
+        }
+      ],
+      "margins": [
+        {
+          "reason": "PARTNER_DISCOUNT",
+          "reasonCode": "cd112b",
+          "promotionId": "<string>",
+          "type": "EXPERT",
+          "amount": 42.5,
+          "percent": 5.00,
+          "promoCode": "<string>"
+        }
+      ],
+      "taxItems": [
+        {
+          "tax": 2154,
+          "taxPercent": 2154,
+          "taxAmountLabel": "<string>"
+        }
+      ],
+      "invoiceRequest": "<string>",
+      "invoiceRequestItem": 2154,
+      "invoiceRequestItemId": "<string>",
+      "subscriptionObj": {
+        "id": "<string>",
+        "versionInfo": "<string>",
+        "stripeSubscriptionId": "<string>",
+        "entitlementId": "<string>",
+        "version": 2154,
+        "stripeScheduleId": "<string>",
+        "orderItemId": "<string>",
+        "orderId": "<string>",
+        "transactionAccountId": "<string>",
+        "invoiceGroupId": "<string>",
+        "offeringId": "<string>",
+        "lastPaidOfferingId": "<string>",
+        "pricingPlanId": "<string>",
+        "status": "PROCESSING",
+        "promotionIds": [
+          "<string>"
+        ],
+        "chargeQuantities": {},
+        "currentListPrice": 2154,
+        "previousListPrice": 2154,
+        "metadata": {},
+        "schedule": {},
+        "trialLengthDays": 2154,
+        "isEditable": true,
+        "createdTimestamp": 2154,
+        "startTimestamp": 2154,
+        "endTimestamp": 2154,
+        "billingAnchorTimestamp": 2154,
+        "currentBillingStartTimestamp": 2154,
+        "currentBillingEndTimestamp": 2154,
+        "nextBillingTimestamp": 2154,
+        "nextBillingAnchorTimestamp": 2154,
+        "cancelAtTheEndOfPeriod": true,
+        "invoiceImmediately": true,
+        "billingClockId": "<string>",
+        "promotionInstances": [
+          {}
+        ],
+        "chargeQuantityList": [
+          {
+            "chargeElement": "<string>",
+            "quantity": 2154
+          }
+        ],
+        "trial": {},
+        "invoiceSettings": {},
+        "pauseBilling": {}
+      },
+      "planObj": {
+        "id": "<string>",
+        "type": "<string>",
+        "sku": "<string>",
+        "hostingType": "<string>",
+        "cycle": {}
+      },
+      "entitlementId": "<string>",
+      "entitlementNumber": "<string>",
+      "relationship": {
+        "relatesToEntitlements": [
+          {}
+        ],
+        "relatesFromEntitlements": [
+          {}
+        ]
+      },
+      "orderItemId": "<string>",
+      "offeringKey": "<string>",
+      "tax": 2154,
+      "taxPercent": 2154,
+      "originalInvoiceReferral": {
+        "invoice": "<string>",
+        "invoiceNumber": "<string>",
+        "invoiceCreatedAt": "<string>",
+        "invoiceItems": [
+          "<string>"
+        ]
+      },
+      "exchangeRate": 2154,
+      "exchangeRateDate": "<string>",
+      "proration": true,
+      "metadata": {},
+      "orderId": "<string>"
+    }
+  ],
+  "dunningHistory": [
+    {
+      "attempt": "ONE",
+      "errorCode": "<string>",
+      "declineCode": "<string>",
+      "message": "<string>",
+      "updatedAt": "<string>",
+      "nextPaymentAttemptDate": "<string>",
+      "attemptCount": 2154
+    }
+  ],
+  "dunningStatus": {
+    "attempt": "ONE",
+    "errorCode": "<string>",
+    "declineCode": "<string>",
+    "message": "<string>",
+    "updatedAt": "<string>",
+    "nextPaymentAttemptDate": "<string>",
+    "attemptCount": 2154
+  },
+  "purchaseOrderNumber": "<string>",
+  "appliedBalance": 162,
+  "reInvoiced": true,
+  "prePaymentCreditNotesAmount": 73,
+  "userDefinedNotes": {},
+  "paymentStatus": {
+    "status": "NO_ACTION",
+    "updatedAt": "<string>",
+    "message": "<string>"
+  }
+}
