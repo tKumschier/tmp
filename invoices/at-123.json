@@ -94,7 +94,7 @@
           "promotionId": "<string>",
           "type": "EXPERT",
           "amount": 67.5,
-          "percent": 5.00,
+          "percentage": 5.00,
           "promoCode": "<string>"
         }
       ],
@@ -212,7 +212,7 @@
           "promotionId": "<string>",
           "type": "EXPERT",
           "amount": 85,
-          "percent": 10.00,
+          "percentage": 10.00,
           "promoCode": "<string>"
         }
       ],
@@ -223,7 +223,7 @@
           "promotionId": "<string>",
           "type": "EXPERT",
           "amount": 42.5,
-          "percent": 5.00,
+          "percentage": 5.00,
           "promoCode": "<string>"
         }
       ],
